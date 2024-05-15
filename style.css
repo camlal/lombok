@@ -41,14 +41,16 @@ header ul li a button{
     font-size: 14px;
 }
 
-.linha{
-    width: 100%;
-    height: 80px;
+.line{
+    height: 4px;
+    width: 8rem;
+    background-color: white;
+    margin: 0 auto;
 }
 
 .home{
     padding: 15rem;
-    background-image: url(./images/fundo.jpeg);
+    background-image: url(./images/pizza.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -70,12 +72,11 @@ header ul li a button{
     font-size: 2rem;
 }
 
-.linha{
-    width: 70%;
-}
+
 
 .articles{
     padding: 15rem;
+    background-color: #255413;
 }
 
 .articles h2{
@@ -83,22 +84,25 @@ header ul li a button{
     margin-top: -20px;
 }
 
-
-
-
-.cartoes{
+.imgs{
     padding: 10px;
     display: flex;
     gap: 2rem;
-
 }
 
-.cartoes div p{
+.imgs div p{
     margin: 50px auto;
     text-align: center;
 }
 
-.cartoes div img{
+.imgs div img{
     width: 20rem;
     height: 15rem;
+}
+
+.line{
+    height: 4px;
+    width: 8rem;
+    background-color: white;
+    margin: 0 auto;
 }
